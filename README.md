@@ -22,7 +22,7 @@ The company All in One Place is a Multibrand Outlet company, i.e., it sells seco
 
 * How will the solution be?
 
-    * Elaborate a model to cluster this customer category, get some insigths and deliver the results via API.
+    * Elaborate a model to cluster this customer category, get some insigths and return a list of customers who will join the Insiders program.
 
     * Questions to be answered:
 
