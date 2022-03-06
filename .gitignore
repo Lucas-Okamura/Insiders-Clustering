@@ -1,7 +1,7 @@
 # File created using '.gitignore Generator' for Visual Studio Code: https://bit.ly/vscode-gig
 
-# Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,macos,jupyternotebooks,python,visualstudio
-# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,macos,jupyternotebooks,python,visualstudio
+# Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,visualstudio,python,macos,jupyternotebooks,venv,virtualenv
+# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,visualstudio,python,macos,jupyternotebooks,venv,virtualenv
 
 ### JupyterNotebooks ###
 # gitignore template for Jupyter Notebooks
@@ -24,7 +24,8 @@ ipython_config.py
 .LSOverride
 
 # Icon must end with two \r
-Icon
+Icon
+
 
 # Thumbnails
 ._*
@@ -190,11 +191,28 @@ dmypy.json
 cython_debug/
 
 # PyCharm
-#  JetBrains specific template is maintainted in a separate JetBrains.gitignore that can
+#  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
 #  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+
+### venv ###
+# Virtualenv
+# http://iamzed.com/2009/05/07/a-primer-on-virtualenv/
+[Bb]in
+[Ii]nclude
+[Ll]ib
+[Ll]ib64
+[Ll]ocal
+[Ss]cripts
+pyvenv.cfg
+pip-selfcheck.json
+.python-version
+
+### VirtualEnv ###
+# Virtualenv
+# http://iamzed.com/2009/05/07/a-primer-on-virtualenv/
 
 ### VisualStudioCode ###
 .vscode/*
@@ -610,7 +628,7 @@ FodyWeavers.xsd
 ### VisualStudio Patch ###
 # Additional files built by Visual Studio
 
-# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,macos,jupyternotebooks,python,visualstudio
+# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,visualstudio,python,macos,jupyternotebooks,venv,virtualenv
 
 # Custom rules (everything added below won't be overriden by 'Generate .gitignore File' if you use 'Update' option)
 
